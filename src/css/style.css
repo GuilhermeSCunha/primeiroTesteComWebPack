@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description-container,
+.data-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.data-container:nth-child(odd) {
+    background-color: #d4d3d3;;
+}
+
+.name,
+.average,
+.status,
+.status-bad,
+.status-good
+ {
+    width: 100px;
+    height: 30px;
+    padding-top: 7px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.status-good {
+    background-color: rgb(65, 211, 65);
+}
+
+.status-bad {
+    background-color: rgb(236, 30, 30);
+}
+
