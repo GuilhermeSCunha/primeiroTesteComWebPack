@@ -9,7 +9,7 @@ const classOne = [
     },
     {
       nome: "Marta",
-      notas: [7, 0, 1, 10],
+      notas: [7, 0, 8, 10],
     },
     {
         nome: "pedro",
